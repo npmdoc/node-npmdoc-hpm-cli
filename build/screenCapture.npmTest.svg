@@ -6,12 +6,12 @@
 <tspan x="10" y="58">&gt; (set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)</tspan>
 <tspan x="10" y="74"></tspan>
 <tspan x="10" y="90"></tspan>
-<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T06:47:46Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
+<tspan x="10" y="106">[MODE_BUILD=npmTest] - 2017-04-11T06:49:12Z - npm-testing /home/travis/build/npmdoc/node-npmdoc-\</tspan>
 <tspan x="10" y="122">hpm-cli</tspan>
 <tspan x="10" y="138"></tspan>
 <tspan x="10" y="154">merging file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.json to test-\</tspan>
 <tspan x="10" y="170">report</tspan>
-<tspan x="10" y="186">&gt; server listening on http-port 50099</tspan>
+<tspan x="10" y="186">&gt; server listening on http-port 61995</tspan>
 <tspan x="10" y="202">You don't have Hyper.app installed! :(</tspan>
 <tspan x="10" y="218">You are missing awesomeness.</tspan>
 <tspan x="10" y="234">Check it out: https://hyper.is/</tspan>
@@ -38,73 +38,73 @@
 <tspan x="10" y="570"></tspan>
 <tspan x="10" y="586"></tspan>
 <tspan x="10" y="602">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/elec\</tspan>
-<tspan x="10" y="618">tron.15b5bc4b0f50.72f46d68f95dd.html</tspan>
+<tspan x="10" y="618">tron.15b5bc5ffb00.c2b0a67bd0408.html</tspan>
 <tspan x="10" y="634"></tspan>
 <tspan x="10" y="650">[node test-case 1 of 6 passed] - testCase_buildLib_default</tspan>
 <tspan x="10" y="666">[node test-case 2 of 6 passed] - testCase_buildReadme_default</tspan>
 <tspan x="10" y="682">[node test-case 3 of 6 passed] - testCase_buildTest_default</tspan>
 <tspan x="10" y="698"></tspan>
 <tspan x="10" y="714">browserTest - created electron entry-page /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/elec\</tspan>
-<tspan x="10" y="730">tron.15b5bc4b1360.230c3f06fdbbb.html</tspan>
+<tspan x="10" y="730">tron.15b5bc5ffd50.d44cd70fe012.html</tspan>
 <tspan x="10" y="746"></tspan>
 <tspan x="10" y="762">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="778">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
 <tspan x="10" y="794">merging file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.json to test-\</tspan>
 <tspan x="10" y="810">report</tspan>
-<tspan x="10" y="826">merging file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.json to test-\</tspan>
-<tspan x="10" y="842">report</tspan>
-<tspan x="10" y="858">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="874">[4917:0411/064749:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="890">[4917:0411/064749:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="906">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
-<tspan x="10" y="922">[4915:0411/064750:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="938">[4915:0411/064750:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
-<tspan x="10" y="954">[4939:0411/064750:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
-<tspan x="10" y="970">in process gpu-process. </tspan>
-<tspan x="10" y="986">[4917:0411/064750:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
-<tspan x="10" y="1002">[4954:0411/064750:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="826">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="842">[5821:0411/064915:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="858">[5821:0411/064915:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="874">[5848:0411/064915:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
+<tspan x="10" y="890">in process gpu-process. </tspan>
+<tspan x="10" y="906">[5821:0411/064915:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="922">merging file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.json to test-\</tspan>
+<tspan x="10" y="938">report</tspan>
+<tspan x="10" y="954">Xlib:  extension "RANDR" missing on display ":99.0".</tspan>
+<tspan x="10" y="970">[5825:0411/064915:WARNING:audio_manager.cc(314)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="986">[5825:0411/064915:WARNING:audio_manager.cc(275)] Multiple instances of AudioManager detected</tspan>
+<tspan x="10" y="1002">[5878:0411/064915:ERROR:sandbox_linux.cc(343)] InitializeSandbox() called with multiple threads \</tspan>
 <tspan x="10" y="1018">in process gpu-process. </tspan>
-<tspan x="10" y="1034">[4915:0411/064750:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
+<tspan x="10" y="1034">[5825:0411/064915:ERROR:browser_gpu_channel_host_factory.cc(131)] Failed to create channel.</tspan>
 <tspan x="10" y="1050"></tspan>
-<tspan x="10" y="1066">browserTest - opened url http://127.0.0.1:50099?modeTest=1</tspan>
+<tspan x="10" y="1066">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/apidoc.html</tspan>
 <tspan x="10" y="1082"></tspan>
 <tspan x="10" y="1098"></tspan>
-<tspan x="10" y="1114">browserTest - opened url /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="1114">browserTest - opened url http://127.0.0.1:61995?modeTest=1</tspan>
 <tspan x="10" y="1130"></tspan>
-<tspan x="10" y="1146">&gt; server listening on http-port 38478</tspan>
+<tspan x="10" y="1146">&gt; server listening on http-port 34462</tspan>
 <tspan x="10" y="1162">[node test-case 4 of 6 passed] - testCase_buildApp_default</tspan>
 <tspan x="10" y="1178"></tspan>
 <tspan x="10" y="1194">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
-<tspan x="10" y="1210">ld/screenCapture.npmTest.browser.%2F.png</tspan>
-<tspan x="10" y="1226"></tspan>
+<tspan x="10" y="1210">ld/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-hpm-cli%2Ftmp%2\</tspan>
+<tspan x="10" y="1226">Fbuild%2Fapidoc.html.png</tspan>
 <tspan x="10" y="1242"></tspan>
 <tspan x="10" y="1258">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
 <tspan x="10" y="1274">ld/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-hpm-cli%2Ftmp%2\</tspan>
-<tspan x="10" y="1290">Fbuild%2Fapidoc.html.png</tspan>
+<tspan x="10" y="1290">Fbuild%2Fapidoc.html.html</tspan>
 <tspan x="10" y="1306"></tspan>
-<tspan x="10" y="1322">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
-<tspan x="10" y="1338">ld/screenCapture.npmTest.browser.%2F.html</tspan>
-<tspan x="10" y="1354"></tspan>
-<tspan x="10" y="1370">browserTest - exit-code 0 - http://127.0.0.1:50099?modeTest=1</tspan>
-<tspan x="10" y="1386"></tspan>
-<tspan x="10" y="1402"></tspan>
-<tspan x="10" y="1418">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/test-re\</tspan>
-<tspan x="10" y="1434">port.npmTest.browser.%2F.json</tspan>
-<tspan x="10" y="1450"></tspan>
-<tspan x="10" y="1466">[node test-case 5 of 6 passed] - testCase_webpage_default</tspan>
-<tspan x="10" y="1482">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
-<tspan x="10" y="1498">ld/screenCapture.npmTest.browser.%2Fhome%2Ftravis%2Fbuild%2Fnpmdoc%2Fnode-npmdoc-hpm-cli%2Ftmp%2\</tspan>
-<tspan x="10" y="1514">Fbuild%2Fapidoc.html.html</tspan>
-<tspan x="10" y="1530"></tspan>
-<tspan x="10" y="1546">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="1322">browserTest - exit-code 0 - /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/apidoc.html</tspan>
+<tspan x="10" y="1338"></tspan>
+<tspan x="10" y="1354">[node test-case 5 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1370"></tspan>
+<tspan x="10" y="1386">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
+<tspan x="10" y="1402">ld/screenCapture.npmTest.browser.%2F.png</tspan>
+<tspan x="10" y="1418"></tspan>
+<tspan x="10" y="1434">browserTest - created screenCapture file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/bui\</tspan>
+<tspan x="10" y="1450">ld/screenCapture.npmTest.browser.%2F.html</tspan>
+<tspan x="10" y="1466"></tspan>
+<tspan x="10" y="1482">browserTest - exit-code 0 - http://127.0.0.1:61995?modeTest=1</tspan>
+<tspan x="10" y="1498"></tspan>
+<tspan x="10" y="1514"></tspan>
+<tspan x="10" y="1530">browserTest - merging test-report from /home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/test-re\</tspan>
+<tspan x="10" y="1546">port.npmTest.browser.%2F.json</tspan>
 <tspan x="10" y="1562"></tspan>
-<tspan x="10" y="1578">[node test-case 6 of 6 passed] - testCase_buildApidoc_default</tspan>
+<tspan x="10" y="1578">[node test-case 6 of 6 passed] - testCase_webpage_default</tspan>
 <tspan x="10" y="1594">merging file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.json to test-\</tspan>
 <tspan x="10" y="1610">report</tspan>
 <tspan x="10" y="1626"></tspan>
 <tspan x="10" y="1642">-------------------------------------------------------</tspan>
-<tspan x="10" y="1658">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T06:47:26.771Z</tspan>
-<tspan x="10" y="1674">|   37787 ms            0 failed        6 passed      |</tspan>
+<tspan x="10" y="1658">| test-report - buildCustomOrg - node - linux v6.10.2 - 2017-04-11T06:48:43.326Z</tspan>
+<tspan x="10" y="1674">|   46663 ms            0 failed        6 passed      |</tspan>
 <tspan x="10" y="1690">-------------------------------------------------------</tspan>
 <tspan x="10" y="1706"></tspan>
 <tspan x="10" y="1722">created test-report file:///home/travis/build/npmdoc/node-npmdoc-hpm-cli/tmp/build/test-report.h\</tspan>
@@ -114,6 +114,6 @@
 <tspan x="10" y="1786">npmTest - 0 failed tests</tspan>
 <tspan x="10" y="1802"></tspan>
 <tspan x="10" y="1818"></tspan>
-<tspan x="10" y="1834">[MODE_BUILD=npmTest] - 2017-04-11T06:48:07Z - EXIT_CODE - 0</tspan>
+<tspan x="10" y="1834">[MODE_BUILD=npmTest] - 2017-04-11T06:49:32Z - EXIT_CODE - 0</tspan>
 </text>
 </svg>
