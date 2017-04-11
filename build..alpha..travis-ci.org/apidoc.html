@@ -1,0 +1,700 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/zeit/hpm#readme"
+
+    >hpm-cli (v2.0.1)</a>
+</h1>
+<h4>A plugin manager for Hyper.app</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hpm-cli">module hpm-cli</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">boolean <span class="apidocSignatureSpan">hpm-cli.</span>_inCache</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_args</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_npmOperationalInternal</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_npmUser</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_phantomChildren</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_requested</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_requiredBy</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>_shrinkwrap</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>api</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>author</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>bin</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>bugs</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>dependencies</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>devDependencies</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>directories</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>dist</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>engines</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>files</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>keywords</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>maintainers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>optionalDependencies</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>repository</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>scripts</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">hpm-cli.</span>xo</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_from</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_id</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_location</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_nodeVersion</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_npmVersion</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_resolved</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_shasum</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_spec</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>_where</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>description</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>gitHead</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>homepage</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>license</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>main</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>name</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>readme</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">hpm-cli.</span>version</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.hpm-cli.api">module hpm-cli.api</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.exists">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>exists
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.existsOnNpm">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>existsOnNpm
+            <span class="apidocSignatureSpan">(plugin)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.install">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>install
+            <span class="apidocSignatureSpan">(plugin, locally)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.isInstalled">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>isInstalled
+            <span class="apidocSignatureSpan">(plugin, locally)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.list">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>list
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.hpm-cli.api.uninstall">
+            function <span class="apidocSignatureSpan">hpm-cli.api.</span>uninstall
+            <span class="apidocSignatureSpan">(plugin)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hpm-cli" id="apidoc.module.hpm-cli">module hpm-cli</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.hpm-cli.api" id="apidoc.module.hpm-cli.api">module hpm-cli.api</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.exists" id="apidoc.element.hpm-cli.api.exists">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>exists
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function exists() {
+  if (fs.existsSync(oldConf)) {
+    console.log(chalk.yellow(`Warning: ${oldConf} should be ${fileName}`))
+  }
+  return fileContents !== undefined
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+const updateNotifier = require(&#x27;update-notifier&#x27;)
+
+const api = require(&#x27;./api&#x27;)
+const pkg = require(&#x27;./package&#x27;)
+
+updateNotifier({pkg}).notify()
+
+if (!api.<span class="apidocCodeKeywordSpan">exists</span>()) {
+  let msg = chalk.red(&#x27;You don\&#x27;t have Hyper.app installed! :(\n&#x27;)
+  msg += `${chalk.red(&#x27;You are missing&#x27;)} ${chalk.green(&#x27;awesomeness&#x27;)}`
+  msg += chalk.red(`.\n`)
+  msg += chalk.green(&#x27;Check it out: https://hyper.is/&#x27;)
+  console.error(msg)
+  process.exit(1)
+}
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.existsOnNpm" id="apidoc.element.hpm-cli.api.existsOnNpm">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>existsOnNpm
+        <span class="apidocSignatureSpan">(plugin)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function existsOnNpm(plugin) {
+  plugin = plugin.split(&#x27;#&#x27;)[0]
+  return npmName(plugin).then(available =&#x3e; {
+    if (available) {
+      const err = new Error(`${plugin} not found on npm`)
+      err.code = &#x27;NOT_FOUND_ON_NPM&#x27;
+      throw err
+    }
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+args.command([&#x27;d&#x27;, &#x27;docs&#x27;, &#x27;h&#x27;, &#x27;home&#x27;], &#x27;Open the npm page of a plugin&#x27;, (name
+, args) =&#x3e; {
+  return opn(`http://ghub.io/${args[0]}`, {wait: false})
+})
+
+args.command([&#x27;f&#x27;, &#x27;fork&#x27;], &#x27;Fork a plugin from npm into your ~/.hyper_plugins/local&#x27;, (name, args
+) =&#x3e; {
+  const spinner = ora(&#x27;Installing&#x27;).start()
+  const plugin = args[0]
+  return api.<span class="apidocCodeKeywordSpan">existsOnNpm</span>(plugin).then(() =&#x3e; {
+if (api.isInstalled(plugin, true)) {
+  spinner.fail()
+  console.error(chalk.red(`${plugin} is already installed locally`))
+  process.exit(1)
+}
+
+const folderName = `${os.homedir()}/.hyper_plugins/local`
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.install" id="apidoc.element.hpm-cli.api.install">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>install
+        <span class="apidocSignatureSpan">(plugin, locally)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function install(plugin, locally) {
+  const array = locally ? localPlugins : plugins
+  return new Promise((resolve, reject) =&#x3e; {
+    existsOnNpm(plugin).then(() =&#x3e; {
+      if (isInstalled(plugin, locally)) {
+        return reject(`${plugin} is already installed`)
+      }
+
+      array.push(recast.types.builders.literal(plugin))
+      save().then(resolve).catch(err =&#x3e; reject(err))
+    }).catch(err =&#x3e; {
+      if (err.code === &#x27;NOT_FOUND_ON_NPM&#x27;) {
+        reject(err.message)
+      } else {
+        reject(err)
+      }
+    })
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+msg += chalk.green(&#x27;Check it out: https://hyper.is/&#x27;)
+console.error(msg)
+process.exit(1)
+}
+
+args.command([&#x27;i&#x27;, &#x27;install&#x27;], &#x27;Install a plugin&#x27;, (name, args) =&#x3e; {
+const plugin = args[0]
+return api.<span class="apidocCodeKeywordSpan">install</span>(plugin)
+		.then(() =&#x3e; console.log(chalk.green(`${plugin} installed successfully!`)))
+		.catch(err =&#x3e; console.error(chalk.red(err)))
+})
+
+args.command([&#x27;u&#x27;, &#x27;uni&#x27;, &#x27;uninstall&#x27;, &#x27;rm&#x27;, &#x27;remove&#x27;], &#x27;Uninstall a plugin
+&#x27;, (name, args) =&#x3e; {
+const plugin = args[0]
+return api.uninstall(plugin)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.isInstalled" id="apidoc.element.hpm-cli.api.isInstalled">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>isInstalled
+        <span class="apidocSignatureSpan">(plugin, locally)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isInstalled(plugin, locally) {
+  const array = locally ? localPlugins : plugins
+  if (array &#x26;&#x26; Array.isArray(array)) {
+    return array.find(entry =&#x3e; getPluginName(entry) === plugin) !== undefined
+  }
+  return false
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  return opn(`http://ghub.io/${args[0]}`, {wait: false})
+})
+
+args.command([&#x27;f&#x27;, &#x27;fork&#x27;], &#x27;Fork a plugin from npm into your ~/.hyper_plugins/local&#x27;, (name, args
+) =&#x3e; {
+  const spinner = ora(&#x27;Installing&#x27;).start()
+  const plugin = args[0]
+  return api.existsOnNpm(plugin).then(() =&#x3e; {
+if (api.<span class="apidocCodeKeywordSpan">isInstalled</span>(plugin, true)) {
+  spinner.fail()
+  console.error(chalk.red(`${plugin} is already installed locally`))
+  process.exit(1)
+}
+
+const folderName = `${os.homedir()}/.hyper_plugins/local`
+const fileName = `${folderName}/package.json`
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.list" id="apidoc.element.hpm-cli.api.list">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>list
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function list() {
+  if (Array.isArray(plugins)) {
+    return plugins.map(plugin =&#x3e; getPluginName(plugin)).join(&#x27;\n&#x27;)
+  }
+  return false
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+const plugin = args[0]
+return api.uninstall(plugin)
+		.then(() =&#x3e; console.log(chalk.green(`${plugin} uninstalled successfully!`)))
+		.catch(err =&#x3e; console.log(chalk.red(err)))
+})
+
+args.command([&#x27;ls&#x27;, &#x27;list&#x27;], &#x27;List installed plugins&#x27;, () =&#x3e; {
+const plugins = api.<span class="apidocCodeKeywordSpan">list</span>()
+
+if (plugins) {
+  console.log(plugins)
+} else {
+  console.log(chalk.red(`No plugins installed yet.`))
+}
+process.exit(1)
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.hpm-cli.api.uninstall" id="apidoc.element.hpm-cli.api.uninstall">
+        function <span class="apidocSignatureSpan">hpm-cli.api.</span>uninstall
+        <span class="apidocSignatureSpan">(plugin)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function uninstall(plugin) {
+  return new Promise((resolve, reject) =&#x3e; {
+    if (!isInstalled(plugin)) {
+      return reject(`${plugin} is not installed`)
+    }
+
+    const index = plugins.findIndex(entry =&#x3e; getPluginName(entry) === plugin)
+    plugins.splice(index, 1)
+    save().then(resolve).catch(err =&#x3e; reject(err))
+  })
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+return api.install(plugin)
+		.then(() =&#x3e; console.log(chalk.green(`${plugin} installed successfully!`)))
+		.catch(err =&#x3e; console.error(chalk.red(err)))
+})
+
+args.command([&#x27;u&#x27;, &#x27;uni&#x27;, &#x27;uninstall&#x27;, &#x27;rm&#x27;, &#x27;remove&#x27;], &#x27;Uninstall a plugin
+&#x27;, (name, args) =&#x3e; {
+const plugin = args[0]
+return api.<span class="apidocCodeKeywordSpan">uninstall</span>(plugin)
+		.then(() =&#x3e; console.log(chalk.green(`${plugin} uninstalled successfully!`)))
+		.catch(err =&#x3e; console.log(chalk.red(err)))
+})
+
+args.command([&#x27;ls&#x27;, &#x27;list&#x27;], &#x27;List installed plugins&#x27;, () =&#x3e; {
+const plugins = api.list()
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
